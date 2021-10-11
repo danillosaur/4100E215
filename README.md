@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @danillosaur
+- 👋 Hi, I’m @danillosaur, 丹尼爾 - 4100E215
 - 👀 I’m interested in dmovies
 - 🌱 I’m currently learning Information Engineering
 
