@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @danillosaur
-- 👀 I’m interested in dmovies
+- 👀 I’m interested in movies
 - 🌱 I’m currently learning Information Engineering
 
 <!---
