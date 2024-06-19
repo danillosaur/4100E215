@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="utf-8">
+    <title>4100E215 某人期末考</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header></header>
+    <aside>
+        <ul class="flex-container">
+            <li>
+                <input type="checkbox" id="collapsible1" class="toggle">
+                <label for="collapsible1" class="lbl-toggle">
+                    教務
+                    <span>></span>
+                </label>
+                <ul class="collapsible-content">
+                    <li><a href="#">教學大綱</a></li>
+                    <li><a href="#">成績輸入</a></li>
+                </ul>
+            </li>
+            <li>
+                <input type="checkbox" id="collapsible2" class="toggle">
+                <label for="collapsible2" class="lbl-toggle">
+                    學務
+                    <span>></span>
+                </label>
+                <ul class="collapsible-content">
+                    <li><a href="#">請假</a></li>
+                    <li><a href="#">獎懲</a></li>
+                </ul>
+            </li>
+            <li>
+                <input type="checkbox" id="collapsible3" class="toggle">
+                <label for="collapsible3" class="lbl-toggle">
+                    總務
+                    <span>></span>
+                </label>
+                <ul class="collapsible-content">
+                    <li><a href="#">車輛進出</a></li>
+                    <li><a href="#">場地租借</a></li>
+                </ul>
+            </li>
+        </ul>
+    </aside>
+    <section>
+        <div class="circle1 circle"></div>
+        <div class="circle2 circle"></div>
+        <div class="circle3 circle"></div>
+        <h2 class="ts03">4100E215</h2>
+        <form method="" action="">
+            <label for="name">姓名：</label>
+            <input id="name" type="text" name="name" placeholder="輸入姓名" required>
+            <br>
+            <label>日期時間：<input type="datetime-local" name="report-time"></label>
+            <br>
+            <fieldset class="grad-rlg">
+                <legend>性別</legend>
+                <label><input type="radio" name="sex" value="男" required>男</label>
+                <label><input type="radio" name="sex" value="女">女</label>
+            </fieldset>
+            <label for="department">系所:</label>
+            <select name="department" id="department">
+                <option value="IE">資工系</option>
+                <option value="Robot">機器人系</option>
+                <option value="IM">資管系</option>
+                <option value="IP">資傳系</option>
+            </select>
+            <br>
+            <fieldset class="grad-rrg">
+                <legend>徵狀</legend>
+                <label><input type="checkbox" name="symptoms" value="頭痛">頭痛</label>
+                <label><input type="checkbox" name="symptoms" value="打噴嚏">打噴嚏</label>
+                <label><input type="checkbox" name="symptoms" value="流鼻水">流鼻水</label>
+                <label><input type="checkbox" name="symptoms" value="喉嚨痛">喉嚨痛</label>
+                <label><input type="checkbox" name="symptoms" value="咳嗽">咳嗽</label>
+                <label><input type="checkbox" name="symptoms" value="發燒">發燒</label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>聯絡方式</legend>
+                <label for="email">電子郵件:</label>
+                <input id="email" type="email" name="email">
+                <br>
+                <label for="phone">電話:</label>
+                <input id="phone" type="tel" name="phone">
+            </fieldset>
+            <br>
+            <input type="submit" value="送出">
+            <input type="reset" value="重設">
+        </form>
+    </section>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>系所</th>
+                <th>報告日期</th>
+                <th>症狀</th>
+                <th>聯絡方式</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>王大明</td>
+                <td>資工系</td>
+                <td>2024/06/15</td>
+                <td>頭痛, 流鼻水</td>
+                <td>example@example.com</td>
+            </tr>
+            <tr>
+                <td>李小華</td>
+                <td>資傳系</td>
+                <td>2024/06/16</td>
+                <td>咳嗽, 發燒</td>
+                <td>example2@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14690.832444554304!2d120.2530937!3d22.9977586!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e7133113c5551%3A0x6c1acdb9fcf0f5d6!2sKun%20Shan%20University!5e0!3m2!1sen!2stw!4v1718797107293!5m2!1sen!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <br>
+    <div>
+        <video controls width="800" height="600">
+            <source src="https://learn.shayhowe.com/assets/misc/courses/html-css/adding-media/earth.ogv" type="video/ogg">
+            <source src="https://learn.shayhowe.com/assets/misc/courses/html-css/adding-media/earth.mp4" type="video/mp4">
+            Please <a href="https://learn.shayhowe.com/assets/misc/courses/html-css/adding-media/earth.mp4" download="">download</a> the video.
+        </video>
+    </div>
+</body>
+
+</html>
